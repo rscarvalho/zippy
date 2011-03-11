@@ -1,0 +1,14 @@
+The goal of this project is to simplify the usage of the zipfile standard python module.
+
+In other words, you should be able to do things like these:
+
+>>> # Extract a zip file
+>>> import zippy
+>>> zippy.unzip("path/to/zipfile.zip", output_dir="/path/to/out", keep_structure=True)
+
+>>> # Create a zip file
+>>> import zippy
+>>> zippy.zip_dir("path/to/directory", "path/to/file.zip", chdir=True)
+
+
+This is just a draft. No work has been done yet.
